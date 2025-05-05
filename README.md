@@ -60,3 +60,6 @@ You can create your own assertions by extending the Assertion base class. Each a
 
 ## Contributing
 Feel free to fork the repository, create a branch, and submit a pull request for new features, improvements, or bug fixes.
+
+## Note
+This framework is submitted to Dr Amr Abdelbari in Near East University for Software Testing ( SWE302 ) Final Project
