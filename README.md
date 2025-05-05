@@ -39,6 +39,7 @@ Edit
 git clone https://github.com/Hasan-Shkoukani/unit-testing.git
 cd unit-testing
 python3 framework/runner.py
+```
 🔬 Assertion Families
 🔁 Comparison
 python
@@ -86,9 +87,6 @@ from framework.assertions import Comparison
 def test_numbers_equal():
     Comparison(5, 5).assertEqual()
 📊 Output Example
-python-repl
-Copy
-Edit
 test_numbers_equal
 >>> ✅ PASS <<<
 
