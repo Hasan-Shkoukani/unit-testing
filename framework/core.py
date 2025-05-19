@@ -7,7 +7,6 @@ def test(func):
     _registered_tests array
     """
     _registered_tests.append(func)
-    print("test?")
     return func
 
 
