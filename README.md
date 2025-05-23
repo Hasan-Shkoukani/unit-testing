@@ -18,6 +18,7 @@ unit-testing/
 │   ├── core.py         # Registers and provides test functions  
 │   ├── assertions.py   # Custom assertion logic grouped by purpose  
 │   └── runner.py       # Main test runner  
+|   └── ai_helper.py    # Failed test debugger     
 ├── tests/  
 │   └── test_samples.py # Example tests using all assertion types  
 └── README.md           # Project documentation  
