@@ -10,8 +10,17 @@ import tests.test_samples
 from framework.core import get_tests
 from framework.ai_helper import explain_failure  
 
-# this will give you the summary
-# here we check the amount that passed, and failed
+
+
+
+
+
+
+
+
+
+# this function will give you the summary of our testing system
+# here we check the amount of tests that passed, and failed
 def testSummary(t: int, p: int, f: int):
     print(">>> Test Summary:")
     print(f">>> Total Tests: {t}")
@@ -19,13 +28,14 @@ def testSummary(t: int, p: int, f: int):
     print(f">>> Total Failed Tests: {f}")
 
 
-# will run the tests one by one, and will classify them as "pass" and "fail"
-# "fail" will be fixed with ( deniz code, ai code ) 
+# this function will run the tests one by one, and will classify them as "pass" and "fail"
+# "fail" will be fixed with ( ai code ) 
 def runTests():
     tests = get_tests()
     total_tests = len(tests)
     passed, failed = 0, 0
 
+    # we iterate the tests one by one, and assert them
     for test in tests:
         try:
             test()
