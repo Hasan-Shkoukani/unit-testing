@@ -11,14 +11,6 @@ from framework.core import get_tests
 from framework.ai_helper import explain_failure  
 
 
-
-
-
-
-
-
-
-
 # this function will give you the summary of our testing system
 # here we check the amount of tests that passed, and failed
 def testSummary(t: int, p: int, f: int):
@@ -50,5 +42,6 @@ def runTests():
     testSummary(total_tests, passed, failed)
     return ">>> TESTING COMPLETED <<<"
 
+#driver code
 if __name__ == "__main__":
     runTests()
