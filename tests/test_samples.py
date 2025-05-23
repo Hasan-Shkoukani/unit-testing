@@ -3,6 +3,7 @@ from framework.assertions import Comparison, Truthiness, Identification, Collect
 from framework.core import test
 
 # COMPARISON FAMILY TESTS
+# Decorator to register tests into our framework
 @test
 def test_comparison_equal():
     comparison = Comparison(1, 1)
