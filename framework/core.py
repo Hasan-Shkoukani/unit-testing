@@ -1,6 +1,7 @@
-_registered_tests = []
+_registered_tests = [] # list of tests
 
-
+# decorator function, Object-Oriented Programming Principle, that takes all
+# tests from test_samples ( qais code )
 def test(func):
     """
     decorator to register all tests to the private
@@ -10,6 +11,7 @@ def test(func):
     return func
 
 
+# will return all the tests that we got with "test" decorator up
 def get_tests():
     """
     returns all the registered tests
